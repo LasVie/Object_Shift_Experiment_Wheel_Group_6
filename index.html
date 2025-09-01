@@ -339,7 +339,7 @@
         function toggleButton() {
           btn.disabled = !(deviceC.checked && idInput.value.trim().length);
         }
-        btn.disabled = true;
+        btn.disabled = false;
         idInput.addEventListener("input", toggleButton);
         deviceC.addEventListener("change", toggleButton);
 
@@ -1655,4 +1655,5 @@
 </body>
 
 </html>
+
 
